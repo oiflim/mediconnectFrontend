@@ -7,7 +7,6 @@
     "icon": "./assets/icon.png",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "experiments": {
       "typedRoutes": false
     },
@@ -46,7 +45,8 @@
       ],
       "expo-status-bar",
       "@clerk/expo",
-      "expo-web-browser"
+      "expo-web-browser",
+      "expo-font"
     ],
     "android": {
       "package": "com.mediconnect.app",
@@ -66,10 +66,11 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "owner": "bishalch02",
     "extra": {
-      "apiUrl": "",
+      "router": {},
       "eas": {
-        "projectId": "REPLACE_WITH_EAS_PROJECT_ID"
+        "projectId": "50dcf72d-f4ca-45ce-ab8f-dc63af2f0030"
       }
     }
   }
